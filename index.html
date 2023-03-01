@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.V.Cook</title>
+    <link rel="stylesheet" href="Estilos.css"/>
+</head>
+<body>
+    <div class="diseño">
+        <header>
+            
+            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Foto de Perfil" width="200" height="200" style="float:left;"> <h1> Irma Cook</h1>
+           
+        </header>
+        <main>
+               
+        </main>
+
+        <section>
+            <h2><b>PERFIL</b></h2>
+	        <br>	           
+            <h3> En mi área profesional es importante tener buenas relaciones interpersonales y facilidad para trabajar en equipo,
+		        formación académica y habilidades personales, que me han ayudado a alcanzar las metas que me he propuesto.
+            </h3>
+            
+            <br>
+            <h2><b> EXPERIENCIAS LABORALES </b></h2>
+            <br>
+            <button type="button" onclick="mostrar1();"> Mostrar 2010-2015</button>
+            <br>
+            <div id="uno">
+               <script>
+                    document.getElementById("uno").style.display = "none";
+                    
+                </script>
+                <p> Atencion al prublico en mesa de informes de : <b>"UNIVERSIDAD" </b> del 2010 al 2015
+		        <ul>
+  	    	        <li>Recepcion de documentos </li>
+           	        <li>Entrega de documentos</li>
+           	        <li>Recepcion de correos</li>
+	    	    </ul>
+                <button type="button" onclick="ocultar1();"> Cerrar 2010-2015</button>
+                <br>
+            </div>
+            <br>
+            <button type="button" onclick="mostrar2();"> Mostrar 2015-2023</button>
+            <br>   
+            <div id="dos">
+                <script>
+                    document.getElementById("dos").style.display = "none";
+                </script>
+                <p> Secretaria de area de Personal de : <b>"UNIVERSIDAD" </b> del 2015 al 2023
+		        <ul>
+  	    	        <li>Control y gestion de personal</li>
+            	    <li>Recepcion y realizacion de licencias</li>
+            	    <li>Administacion del reloj de asistencias</li>
+	    	    </ul>
+                <br>
+                <button type="button" onclick="ocultar2();"> Cerrar 2015-2023</button>
+                
+            </div> 
+            
+            <br>
+            <script>
+                function mostrar1() {
+                                        document.getElementById("uno").style.display = "block";
+                                    }
+                function ocultar1() {    
+                                        document.getElementById("uno").style.display = "none";
+                                   } 
+                function mostrar2() {
+                                        document.getElementById("dos").style.display = "block";
+                                    }
+                function ocultar2() {    
+                                        document.getElementById("dos").style.display = "none";
+                                   }
+		        
+            </script>
+             <h2><b> FORMACION ACADEMICA </b></h2>
+            <ul>
+                <nav>
+                     <li> Nivel Primario Completo colegio "Jesus Maria"  </li>
+                     <br> 
+                     <li> Nivel Secundario Completo colegio "Carbo"</li> 
+                     <br>
+                     <li> Nivel Terciario  Incompleto</li> 
+                     <br>
+                     <li> Curso de PRIMEROS AUXILIOS </li>
+                     <br> 
+                     <li> Curso de MANICURA</li> 
+                
+                </nav>
+            </ul>    
+        </section>
+
+        <aside>
+                        <br>
+            <ul>
+              <li>1/2/1988</li>
+              <li>35 años</li>
+              <li>Cordoba Capital</li>
+              <li>Cordoba </li>
+              <li>Argentina</li>
+            </ul> 	
+            <p> irma.cook@example.com <br></p> 
+               
+            <p>8098 Robinson Rd <br> </p>
+            <p> (328) 853-6983 <br></p>
+             
+             <nav>
+                <a href="https://es-la.facebook.com/">FACEBOOK</a>
+                <br> 
+                <a href="https://www.instagram.com/accounts/login/">INSTAGRAM</a>
+             </nav>
+             <br>
+             <h2><b>Habilidades</b></h2>
+             <ul>
+                 
+                 
+                 <li>Muy buen desempeño en Trabajo en equipo</li>
+                 <li>excelente manejo de Microsolft office</li>
+                 <li>Adaptabilidad</li>
+                 </ul>
+             <h2><b>Idiomas</b></h2>
+             <ul>
+                 <li>Español -Muy bueno</li>
+                 <li>Ingles -Muy bueno</li>
+                 <li>Frances -Regular</li>
+                 
+             </ul>	
+              
+            
+           
+        </aside>
+    </div> 
+</body>
+</html>
